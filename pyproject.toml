@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "python-template"
+name = "Mean-Variance-Standard-Deviation-Calculator"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "To demonstrate my ability to use the core knowledge I have learned in this course, I had to construct a Mean Variance Standard Deviation Calculator project in order to complete the Data Analysis With Python course offered by freecodecamp.org."
+authors = ["Bagus Perdana Yusuf <baguspyus@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.12"
