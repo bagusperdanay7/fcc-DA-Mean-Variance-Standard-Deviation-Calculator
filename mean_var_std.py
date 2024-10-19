@@ -2,12 +2,11 @@ import numpy as np
 
 
 def calculate(list):
-
     if (len(list) < 9):
         raise ValueError("List must contain nine numbers.")
 
-    list_to_array = np.array(list).reshape(3,3)
-    
+    list_to_array = np.array(list).reshape(3, 3)
+
     # Mean
     axis1_mean = np.mean(list_to_array, axis=0).tolist()
     axis2_mean = np.mean(list_to_array, axis=1).tolist()
@@ -48,4 +47,3 @@ def calculate(list):
     }
 
     return calculations
-
